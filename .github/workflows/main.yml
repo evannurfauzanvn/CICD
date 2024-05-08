@@ -20,7 +20,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.1' # Sesuaikan dengan versi PHP yang digunakan dalam proyek Laravel 11
+          php-version: '8.1.10' # Sesuaikan dengan versi PHP yang digunakan dalam proyek Laravel 11
 
       - name: Install dependencies
         run: composer install --no-ansi --no-interaction --no-progress --optimize-autoloader
@@ -63,7 +63,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.1' # Sesuaikan dengan versi PHP yang digunakan dalam proyek Laravel 11
+          php-version: '8.1.10' # Sesuaikan dengan versi PHP yang digunakan dalam proyek Laravel 11
 
       - name: Install dependencies
         run: composer install --no-ansi --no-interaction --no-progress --optimize-autoloader
