@@ -35,7 +35,7 @@ jobs:
         run: touch database/database.mysql
 
       - name: Run Migration Database
-        run: php artisan migrate:fresh --seed
+        run: php artisan migrate
 
       # - name: Install Breeze
       #   run: php artisan breeze:install --no-interaction
@@ -78,7 +78,7 @@ jobs:
         run: touch database/database.mysql
 
       - name: Run Migration Database
-        run: php artisan migrate:fresh --seed
+        run: php artisan migrate
 
       # - name: Install Breeze
       #   run: php artisan breeze:install --no-interaction
